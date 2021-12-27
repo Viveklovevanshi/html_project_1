@@ -1,0 +1,51 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+hr {
+    border: none;
+    border-top: solid hsl(215, 32%, 27%) 0.1rem;
+    margin: 1rem auto 0.8rem;
+}
+
+.content {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    width: 16rem;
+    height: 30rem;
+    padding: 1rem;
+    position: absolute;
+    top: 4rem;
+    left: 35rem;
+    filter: drop-shadow(0 1.5rem 1.5rem rgb(4, 5, 5));
+}
+
+.equilibrium {
+    border-radius: 10px;
+    height: 16rem;
+}
+
+.equ {
+    color: hsl(0, 0%, 100%);
+}
+
+.left {
+    color: hsl(178, 100%, 50%);
+    display: inline-block;
+    width: 9.3rem;
+}
+
+.right {
+    display: inline-block;
+}
+
+.avatar {
+    border: solid hsl(0, 0%, 100%) 0.1rem ;
+    border-radius: 100%;
+    width: 1.5rem;
+    float: left;
+    margin-right: 0.5rem;
+}
